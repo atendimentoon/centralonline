@@ -7,7 +7,7 @@ function App() {
 
   const handleWhatsAppRedirect = (message: string) => {
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/557131802484?text=Atendimento`;
+    const whatsappUrl = `https://wa.me/5571999596293?text=Olá, Atendimento`;
     window.open(whatsappUrl, '_blank');
   };
 
